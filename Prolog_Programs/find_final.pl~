@@ -1,0 +1,2 @@
+find_final(X,[X]).
+find_final(X,[Y|Z]):- find_final(X,Z).
